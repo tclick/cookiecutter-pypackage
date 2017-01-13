@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = {{ cookiecutter.project_name }}/*
+include = {{ cookiecutter.project_name }}/*
+omit = */setup.py
+[report]
+include = {{ cookiecutter.project_name }}/*
